@@ -31,7 +31,7 @@ When focus is on a tab element in a horizontal tab list:
 **Delete (Optional):** If deletion is allowed, deletes (closes) the current tab element and its associated tab panel. If any tabs remain, sets focus to the tab following the tab that was closed and activates the newly focused tab. Alternatively, or in addition, the delete function is available in a context menu.
 
 
-##WAI-ARIA Roles, States, and Properties
+## WAI-ARIA Roles, States, and Properties
 - The element that serves as the container for the set of tabs has role **`tablist`**.
 - Each element that serves as a tab has role **`tab`** and is contained within the element with role `tablist`.
 - Each element that contains the content panel for a tab has role `tabpanel`.
